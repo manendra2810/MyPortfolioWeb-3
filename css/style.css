@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
-body{
+*{
     margin: 0;
     padding: 0;
     font-family: Poppins, sans-serif;
 }
 
 .header{
-    margin: 0;
+    margin: 0; 
     padding: 0;
     width: 100%;
     position: fixed;
@@ -403,37 +403,32 @@ img {
 
 .project_list{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 125px;
 }
 
 .project_content_box{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 6rem;
-}
-
-.project{
-    margin: 0;
-    padding: 0;
-}
-
-.project_heading{
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    display: flex;
+    gap: 50px;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
 }
 
 .project_image{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
+    width: 675px;
+    text-align: center;
+}
+
+.project_image img{
+    width: 650px;
+    height: 375px;
+    border-radius: 10px;
+    /* object-fit: contain; */
 }
 
 .project_content{
-    margin: 0;
-    padding: 0;
+    width: 445px;
 }
 
 .project_content_heading{

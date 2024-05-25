@@ -16,7 +16,7 @@ activeButton.addEventListener("click", ()=>{
 closeButton.addEventListener("click", ()=>{
     closeButton.classList.add("close-pannel");
     closeButton.classList.remove("active-pannel");
-    activeButton.classList.add("active-pannel");
+    activeButton.classList.add("active-pannel"); 
     activeButton.classList.remove("close-pannel");
 
     navItem.classList.add("close-pannel");
