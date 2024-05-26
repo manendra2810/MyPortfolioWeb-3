@@ -959,6 +959,42 @@ img {
     }
 }
 
+@media screen and (max-width: 600px){
+    .project_main_heading {
+        font-size: 1.4em;
+    }
+
+    .project_main_details {
+        padding: 1rem 1.5rem;
+        font-size: 0.6em;
+    }
+
+    .outer-img {
+        width: 400px;
+        height: 240px;
+    }
+
+    .inner-img {
+        width: 305px;
+        height: 183px;
+        top: 23px;
+    }
+
+    .project_content_heading {
+        font-size: 1.2rem;
+    }
+
+    .project_content_p {
+        font-size: 0.9rem;
+    }
+
+    .project_btn {
+        margin-top: 1.5rem;
+        padding: 0.5rem 1.2rem;
+        font-size: 1rem;
+    }
+}
+
 @media screen and (min-width: 0px) and (max-width: 480px){
     .main-footer{
         padding: 10px;
