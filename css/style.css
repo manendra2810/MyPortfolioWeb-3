@@ -769,6 +769,11 @@ img {
 }
 
 @media screen and (max-width: 1150px){
+
+    .about_main_details {
+        padding: 1rem 5rem;
+    }
+
     .project_main_container {
         width: 95%;
     }
@@ -895,6 +900,49 @@ img {
     
 }
 
+@media screen and (max-width: 850px){
+
+    #hero-h1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_main_details {
+        padding: 1rem 2rem;
+        font-size: 0.7em;
+    }
+
+    .about_content_box {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .about_content{
+        width: 500px;
+    }
+
+    .about_content_p {
+        font-size: 0.9rem;
+    }
+
+    .about_btn {
+        margin-top: 2rem;
+        padding: 0.7rem 2rem;
+        font-size: 1rem;
+    }
+
+    .skill_set {
+        padding: 0.5rem 1rem;
+        font-size: 13px;
+    }
+
+    #project_section {
+        padding: 0rem 0 8rem 0;
+    }
+
+}
+
 @media screen and (max-width: 750px){
     .header_main-ham-menu-cross{
         position: absolute;
@@ -925,6 +973,10 @@ img {
         position: absolute;
         visibility: hidden;
         opacity: 0;
+    }
+
+    .hero_details {
+        padding: 0 4em;
     }
 
     .project_content_box {
@@ -960,6 +1012,26 @@ img {
 }
 
 @media screen and (max-width: 600px){
+    .hero-section-content {
+        padding: 26% 6% 0 6%;
+    }
+
+    #hero-h1 {
+        font-size: 2em;
+    }
+
+    .hero-p {
+        font-size: 0.9em;
+    }
+
+    .hero_details {
+        padding: 0 1em;
+    }
+
+    .about_content {
+        width: auto;
+    }
+
     .project_main_heading {
         font-size: 1.4em;
     }
@@ -995,7 +1067,43 @@ img {
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 480px){
+@media screen and (max-width: 490px){
+    .hero-section-content {
+        padding: 35% 2% 0 2%;
+    }
+
+    #hero-h1 {
+        font-size: 1.7em;
+    }
+
+    .hero-p {
+        font-size: 0.8em;
+    }
+
+    .hero_btn {
+        padding: 0.6rem 1.2rem;
+        font-size: 1rem;
+    }
+    .about_main_details {
+        padding: 1rem 0rem;
+        font-size: 0.7em;
+    }
+
+    .project_main_container {
+        width: auto;
+    }
+
+    .outer-img {
+        width: 350px;
+        height: 210px;
+    }
+
+    .inner-img {
+        width: 267px;
+        height: 156px;
+        top: 20px;
+    }
+
     .main-footer{
         padding: 10px;
         padding-left: 5px;
