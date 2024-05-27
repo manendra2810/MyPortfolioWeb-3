@@ -22,3 +22,4 @@ closeButton.addEventListener("click", ()=>{
     navItem.classList.add("close-pannel");
     navItem.classList.remove("active-pannel");
 });
+
