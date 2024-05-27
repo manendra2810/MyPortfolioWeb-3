@@ -837,6 +837,10 @@ img {
         height: 215px;
         top: 30px;
     }
+
+    .contact_main_details {
+        padding: 1rem 4rem;
+    }
 }
 
 @media screen and (max-width: 950px){
@@ -908,7 +912,9 @@ img {
         display: block;
     }
 
-    
+    .contact_main_details {
+        font-size: 0.7em;
+    }
 }
 
 @media screen and (max-width: 850px){
@@ -952,6 +958,23 @@ img {
         padding: 0rem 0 8rem 0;
     }
 
+    .contact_main_details {
+        padding: 1rem 1rem;
+    }
+
+    .contact_content_box {
+        margin: 4rem auto 0 auto;
+        width: 80%;
+    }
+
+    .contact_form-label {
+        margin-bottom: 0.5rem;
+    }
+
+    .contact_form-input {
+        padding: 0.7rem;
+        font-weight: 500;
+    }
 }
 
 @media screen and (max-width: 750px){
@@ -1059,11 +1082,42 @@ img {
         padding: 0.5rem 1.2rem;
         font-size: 1rem;
     }
+
+    .main-footer-upper {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        gap: 35px;
+    }
+
+    .main-footer-upper-content1 {
+        width: 90%;
+    }
+
+    .content1-heading {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .content2-heading {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .social-media-links a i {
+        margin: 14px;
+    }
+
+    .main-footer-lower {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 490px){
     .header_content {
-        padding: 0.5rem 2rem;
+        padding: 0.5rem 1rem;
     }
 
     .header_logo-img-cont {
@@ -1133,6 +1187,10 @@ img {
         width: auto;
     }
 
+    .contact_main_heading_content {
+        margin-bottom: 2rem;
+    }
+
     #contact_section {
         padding: 4rem 0;
     }
@@ -1197,11 +1255,6 @@ img {
     }
 
     .main-footer-upper {
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-        align-items: center;
-        text-align: center;
         gap: 20px;
     }
 
@@ -1212,10 +1265,12 @@ img {
     .content1-heading {
         margin-bottom: 15px;
         letter-spacing: 3px;
+        font-size: 20px;
     }
 
     .main-footer a i{
         font-size: 1.5rem;
+        margin: 6px;
     }
 
     .main-footer p{
@@ -1223,9 +1278,15 @@ img {
     }
 
     .content2-heading {
-        margin-bottom: 10px;
+        margin-bottom: 0;
         margin-top: 15px;
         letter-spacing: 3px;
+        font-size: 20px;
+    }
+
+    .main-footer-lower {
+        font-size: 13px;
+        text-align: center;
     }
 }
 
@@ -1241,5 +1302,115 @@ img {
     #hero-h1 {
         font-size: 1.7em;
         letter-spacing: 2px;
+    }
+
+    .hero_btn {
+        padding: 0.4rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .contact_content_box {
+        padding: 10px;
+        margin: 0rem 10px;
+    }
+
+    .contact_form-field {
+        margin-bottom: 1rem;
+    }
+
+    .contact_form-label {
+        margin-bottom: 0.1rem;
+        font-size: 0.7rem;
+    }
+
+    .contact_form-input {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .contact_btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .header_logo-img-cont {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 5px;
+    }
+
+    .header_logo-sub {
+        font-size: 0.8rem;
+    }
+
+    .active-pannel {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media screen and (max-width: 230px){
+    .header_logo-sub {
+        display: none;
+    }
+
+    .header_content {
+        padding: 0.5rem 1rem;
+    }
+
+    #hero-h1 {
+        font-size: 1.4em;
+        letter-spacing: 1px;
+    }
+
+    #hero_section {
+        height: 500px;
+    }
+
+    .about_main_heading {
+        font-size: 0.8em;
+        font-weight: 800;
+    }
+
+    .about_content_box {
+        gap: 4rem;
+    }
+
+    .about_content_heading {
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    .about_btn {
+        margin-top: 1rem;
+        padding: 0.5rem 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .about_skill_heading {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    .skill_set {
+        padding: 0.3rem 0.7rem;
+        font-size: 10px;
+    }
+
+    .project_main_heading {
+        font-size: 0.8em;
+        font-weight: 800;
+    }
+
+    .project_btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+    }
+
+    .contact_main_heading {
+        font-size: 0.8em;
+        font-weight: 800;
     }
 }
